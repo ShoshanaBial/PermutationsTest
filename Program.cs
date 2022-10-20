@@ -6,9 +6,7 @@ using System.Collections.Generic;
 
 namespace Permutations
 {
-    using System;
     public class Program
-
     {
 
         static IList<string> Permute(int num)
@@ -83,11 +81,8 @@ namespace Permutations
 
         }
 
-
-        // Driver code
         public static void Main(String[] args)
         {
-
             //var result = ResultInPosition(Permute(4), 24);
             var result = ResultInPosition(Permute(3), 2);
 
